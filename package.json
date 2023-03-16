@@ -1,0 +1,37 @@
+{
+    "name": "celosage-spheron",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "hardhat:test": "yarn workspace @celosage-spheron/hardhat test",
+        "hardhat:test-local": "yarn workspace @celosage-spheron/hardhat test-local",
+        "hardhat:accounts": "yarn workspace @celosage-spheron/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @celosage-spheron/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @celosage-spheron/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @celosage-spheron/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @celosage-spheron/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @celosage-spheron/hardhat fork-mainnet",
+        "react-app:dev": "yarn workspace @celosage-spheron/react-app dev",
+        "react-app:build": "yarn workspace @celosage-spheron/react-app build",
+        "react-app:start": "yarn workspace @celosage-spheron/react-app start",
+        "react-app:lint": "yarn workspace @celosage-spheron/react-app lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
